@@ -15,7 +15,7 @@ namespace InjecaoDependencia1 {
       }
 
       public void EnviarEmail(string titulo, string mensagem) {
-         Console.WriteLine($"Cliente {Nome} enviando e-mail:");
+         Console.WriteLine($"ClienteConstructor {Nome} enviando e-mail:");
          _servicoEmail.EnviaEmail(Email, titulo, mensagem);
       }
    }
